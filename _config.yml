@@ -1,0 +1,9 @@
+title: YEN-CHIA PENG
+email: apricity.peng2023@gmail.com
+baseurl: ""
+url: "https://anga1225.github.io"
+github_username:  Anga1225
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
