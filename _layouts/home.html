@@ -4,23 +4,18 @@
 {% include head.html %}
 
 <body>
-    <div class="container">
-        <div class="row mb-md-4">
-            <div class="col-12 col-md-4 mb-md-0" style="margin-bottom: 2rem;">
-                <img src="assets/images/portrait.jpg" alt="portrait of yen-chia" class="img-fluid">
-            </div>
-            <div class="d-none d-md-block col-md-8">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 mb-4 mb-md-0">
-                <p class="title mb-3 mb-md-0" style="text-transform: none;">Yen-Chia Peng</p>
-                <p>
-                    apricity.peng2023@gmail<br>
-                    <a class="important" href="{{ '/assets/files/yenchiapeng_resume.pdf' | relative_url }}">résumé</a>,
-                </p>
-            </div>
-            <div class="col-12 col-md-8">
+    <div class="container homepage">
+        <div class="intro-block">
+            <img src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="portrait of yen-chia" class="img-fluid portrait">
+
+            <p class="title" style="text-transform: none;">Yen-Chia Peng</p>
+
+            <p class="contact">
+                <a class="email" href="mailto:apricity.peng2023@gmail.com">apricity.peng2023@gmail.com</a><br>
+                <a class="important" href="{{ '/assets/files/yenchiapeng_resume.pdf' | relative_url }}">résumé</a>
+            </p>
+
+            <div class="bio">
                 {{ content }}
             </div>
         </div>
